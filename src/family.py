@@ -1,36 +1,37 @@
-from unicodedata import name
 import xml.etree.ElementTree as ET
+
 from phone import Phone
 from address import Address
 
 class Family:
-
+    '''Representation of information about family members.'''
     def __init__(self, name: str, born: str) -> None:
+        '''Constructor for famnily member. Fields phone and address can be set optionally.'''
         self.name = name
         self.born = born
         self.phone = None
         self.address = None
 
-    def set_phone(self, phone: Phone):
+    def set_phone(self, phone: Phone) -> None:
+        '''Setter for phone field.'''
         self.phone = phone
 
-    def set_address(self, address: Address):
+    def set_address(self, address: Address) -> None:
+        '''Setter for address field.'''
         self.address = address
 
-    def add_to_xmltree(self, xml_parent: ET.SubElement):
-        family_tag = ET.SubElement(xml_parent, 'family')
+    def add_to_xmltree(self, parent: ET.SubElement) -> None:
+        '''Add a family member to a XML tree structure.'''
+        family_tag = ET.SubElement(parent, 'family')
         
         name_tag = ET.SubElement(family_tag, 'name')
         name_tag.text = self.name
 
-        # Must be indented!
         born_tag = ET.SubElement(family_tag, 'born')
         born_tag.text = self.born
 
-        # Must be indented!
         if self.address != None:
             self.address.add_to_xmltree(family_tag)
 
-        # Must be indented!
         if self.phone != None:
             self.phone.add_to_xmltree(family_tag)
