@@ -31,7 +31,7 @@ A = Address\
 F = Family member\
 \
 P can be followed by T, A and F\
-F can be followed by T and A\
+F can be followed by T and A
 * Errors in the fomat let the application terminate by informing the user in which line the (first) error occurred.
 
 ## License
