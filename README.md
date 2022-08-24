@@ -33,6 +33,7 @@ F = Family member\
 P can be followed by T, A and F\
 F can be followed by T and A
 * Errors in the fomat let the application terminate by informing the user in which line the (first) error occurred.
+* The output file will be saved to the root directory as output.xml.
 
 ## License
 The application is licensed under the MIT license. Refer to LICENCE.md for further information.\
