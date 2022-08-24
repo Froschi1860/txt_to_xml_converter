@@ -1,33 +1,41 @@
 <people>
   <person>
-    <firstname>Fabi</firstname>
-    <lastname>Fr&#246;schl</lastname>
+    <firstname>Carl Gustaf</firstname>
+    <lastname>Bernadotte</lastname>
     <address>
-      <street>Morigglstrasse 4a</street>
-      <city>Munich</city>
-      <postalnumber>80995</postalnumber>
+      <street>Drottningholms slott</street>
+      <city>Stockholm</city>
+      <postalnumber>10001</postalnumber>
     </address>
     <phone>
-      <mobile>0163-1785794</mobile>
-      <telephone>089-30779165</telephone>
+      <mobile>0768-101801</mobile>
+      <telephone>08-101801</telephone>
     </phone>
     <family>
-      <name>Sandra</name>
-      <born>1993</born>
+      <name>Victoria</name>
+      <born>1977</born>
       <address>
-        <street>Lothringer Strasse 8</street>
-        <city>Munich</city>
-        <postalnumber>81667</postalnumber>
+        <street>Haga Slott</street>
+        <city>Stockholm</city>
+        <postalnumber>10002</postalnumber>
       </address>
+    </family>
+    <family>
+      <name>Carl Philip</name>
+      <born>1979</born>
+      <phone>
+        <mobile>0768-101802</mobile>
+        <telephone>08-101802</telephone>
+      </phone>
     </family>
   </person>
   <person>
-    <firstname>Test</firstname>
-    <lastname>Testington</lastname>
+    <firstname>Barack</firstname>
+    <lastname>Obama</lastname>
     <address>
-      <street>Lothringer Strasse 8</street>
-      <city>Munich</city>
-      <postalnumber>81667</postalnumber>
+      <street>1600 Pennsylvania Avenue</street>
+      <city>Washington, D.C</city>
+      <postalnumber>12345</postalnumber>
     </address>
   </person>
 </people>

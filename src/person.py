@@ -21,7 +21,7 @@ class Person:
         self.phone = phone
 
     def add_family(self, family_members: list):
-        self.family.append(family_members)
+        self.family += family_members
 
     def add_to_xmltree(self, xml_parent: ET.Element):
         person_tag = ET.SubElement(xml_parent, 'person')
