@@ -16,7 +16,7 @@ def main():
 
     bytestring_xml = ET.tostring(people)
     try:
-        with open('output.xml', 'wb') as out:
+        with open('..\output.xml', 'wb') as out:
             out.write(bytestring_xml)
     except IOError:
         print('An error occurred when writing the output file.')
