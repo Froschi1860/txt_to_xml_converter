@@ -1,0 +1,33 @@
+<people>
+  <person>
+    <firstname>Fabi</firstname>
+    <lastname>Fr&#246;schl</lastname>
+    <address>
+      <street>Morigglstrasse 4a</street>
+      <city>Munich</city>
+      <postalnumber>80995</postalnumber>
+    </address>
+    <phone>
+      <mobile>0163-1785794</mobile>
+      <telephone>089-30779165</telephone>
+    </phone>
+    <family>
+      <name>Sandra</name>
+      <born>1993</born>
+      <address>
+        <street>Lothringer Strasse 8</street>
+        <city>Munich</city>
+        <postalnumber>81667</postalnumber>
+      </address>
+    </family>
+  </person>
+  <person>
+    <firstname>Test</firstname>
+    <lastname>Testington</lastname>
+    <address>
+      <street>Lothringer Strasse 8</street>
+      <city>Munich</city>
+      <postalnumber>81667</postalnumber>
+    </address>
+  </person>
+</people>
