@@ -20,8 +20,8 @@ class Person:
     def set_phone(self, phone: Phone):
         self.phone = phone
 
-    def add_family(self, family_member: Family):
-        self.family.append(family_member)
+    def add_family(self, family_members: list):
+        self.family.append(family_members)
 
     def add_to_xmltree(self, xml_parent: ET.Element):
         person_tag = ET.SubElement(xml_parent, 'person')
